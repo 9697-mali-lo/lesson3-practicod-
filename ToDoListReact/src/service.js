@@ -2,7 +2,8 @@
 
 import axios from "axios";
 
-axios.defaults.baseURL = "http://localhost:5067/api";
+axios.defaults.baseURL = "https://lesson3-practicod-server2.onrender.com";
+// axios.defaults.baseURL = "http://localhost:5067/api";
 
 // טיפול בשגיאות
 axios.interceptors.response.use(
